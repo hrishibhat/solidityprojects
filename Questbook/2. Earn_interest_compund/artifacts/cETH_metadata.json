@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "exchangeRateStored",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "redeemTokens",
+						"type": "uint256"
+					}
+				],
+				"name": "redeem",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Questbook/Earn_interest_compund/Compound.sol": "cETH"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Questbook/Earn_interest_compund/Compound.sol": {
+			"keccak256": "0xa125ec87a666ebaea94fa2c2aaf90af774601eaea432fa4aaac70b8551c0af78",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ff8eaadea87c3ec36b97d121bf014dc2d223b11e748a9667938c965a9bb4cd31",
+				"dweb:/ipfs/QmWtbkrz7dDV8rXyWwReF8T7LC5P4BU3CTZ28BYeaiDjsm"
+			]
+		}
+	},
+	"version": 1
+}
