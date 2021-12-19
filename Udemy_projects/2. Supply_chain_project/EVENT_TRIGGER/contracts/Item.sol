@@ -1,10 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "./SupplyChain.sol";
-import "./Ownable.sol";
+import "./ItemManager.sol";
 
-contract Item is Ownable{
+contract Item {
     uint public priceInWei;
     uint public paidWei;
     uint public index;
