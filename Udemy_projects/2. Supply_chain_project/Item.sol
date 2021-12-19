@@ -2,8 +2,9 @@
 pragma solidity ^0.8.0;
 
 import "./SupplyChain.sol";
+import "./Ownable.sol";
 
-contract Item {
+contract Item is Ownable{
     uint public priceInWei;
     uint public paidWei;
     uint public index;
