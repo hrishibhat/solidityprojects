@@ -20,9 +20,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"isOwner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Ownable.sol\":\"Ownable\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Ownable.sol\":{\"keccak256\":\"0x43cc7a72f9067aa5841c8f02e95f5d25a8d71b1a72f112a53fcd771244cb2935\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f6e87de3e4cf8c4a47a732c128b1bca2b64da2a079c0d9fa96f7a07e0b71e64b\",\"dweb:/ipfs/QmUH3QMdbRZ1ynfoNZYNSHpS2XrVSS1WGq2yBbdb23cpmk\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610106806100606000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638f32d59b14602d575b600080fd5b60336047565b604051603e919060b7565b60405180910390f35b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b60008115159050919050565b60b181609e565b82525050565b600060208201905060ca600083018460aa565b9291505056fea26469706673582212201d560893e9f66035b71d17be02adaa055e147180bcedf809eab934ef7fc3876564736f6c634300080a0033",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80638f32d59b14602d575b600080fd5b60336047565b604051603e919060b7565b60405180910390f35b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b60008115159050919050565b60b181609e565b82525050565b600060208201905060ca600083018460aa565b9291505056fea26469706673582212201d560893e9f66035b71d17be02adaa055e147180bcedf809eab934ef7fc3876564736f6c634300080a0033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"isOwner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Ownable.sol\":\"Ownable\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Ownable.sol\":{\"keccak256\":\"0x43cc7a72f9067aa5841c8f02e95f5d25a8d71b1a72f112a53fcd771244cb2935\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f6e87de3e4cf8c4a47a732c128b1bca2b64da2a079c0d9fa96f7a07e0b71e64b\",\"dweb:/ipfs/QmUH3QMdbRZ1ynfoNZYNSHpS2XrVSS1WGq2yBbdb23cpmk\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610106806100606000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638f32d59b14602d575b600080fd5b60336047565b604051603e919060b7565b60405180910390f35b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b60008115159050919050565b60b181609e565b82525050565b600060208201905060ca600083018460aa565b9291505056fea2646970667358221220e0e316e07afa59bb4e965b415e3b6c63175578b54eace4b97eec25dce649254564736f6c634300080b0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80638f32d59b14602d575b600080fd5b60336047565b604051603e919060b7565b60405180910390f35b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614905090565b60008115159050919050565b60b181609e565b82525050565b600060208201905060ca600083018460aa565b9291505056fea2646970667358221220e0e316e07afa59bb4e965b415e3b6c63175578b54eace4b97eec25dce649254564736f6c634300080b0033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -1129,11 +1129,11 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+    "version": "0.8.11+commit.d7f03943.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2021-12-19T18:24:52.914Z",
+  "updatedAt": "2021-12-24T06:20:18.406Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
